@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ley Gastronómica · Proyecto de Ley 044 de 2026</title>
+<meta name="description" content="El proyecto de Ley Gastronómica de Colombia explicado en palabras sencillas: qué propone, a quién beneficia, cuánto le ahorraría a su negocio y cómo va en el Congreso.">
+<meta name="theme-color" content="#b4472a">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ley Gastronómica: lo que propone el proyecto (PL 044 de 2026)">
+<meta property="og:description" content="Aún no es ley. Explicado artículo por artículo, con calculadora para su restaurante.">
+<meta property="og:image" content="https://haroldco45.github.io/ley-gastronomica/og-image.png">
+<meta property="og:url" content="https://haroldco45.github.io/ley-gastronomica/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf6ee; --card:#fffdf9; --ink:#2a1d14; --muted:#6f5e50; --line:#eadcc8;
+  --brand:#b4472a; --brand-2:#e08a2c; --green:#3f7d4e; --soft:#f6e7d3; --warn:#9a6a00; --warn-bg:#fff4d6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b1410; --card:#251b15; --ink:#f5eadf; --muted:#c2ad9a; --line:#3d2e24;
+    --brand:#e2734f; --brand-2:#f0a94d; --green:#7cc28d; --soft:#33251c; --warn:#f2c14e; --warn-bg:#3a2e12;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0 0 .5em}
+a{color:var(--brand)}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header.hero{background:linear-gradient(160deg,#7a2a17 0%,#b4472a 55%,#e08a2c 100%);color:#fff8f0;padding:28px 0 36px;position:relative;overflow:hidden}
+header.hero::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;border:28px solid rgba(255,255,255,.08)}
+.brandline{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.9}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#fff3c4;color:#5a3d00;border-radius:999px;padding:6px 12px;font-weight:700;font-size:13px;margin:18px 0 12px}
+.badge .dot{width:8px;height:8px;border-radius:50%;background:#e08a2c;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.3}}
+.hero h1{font-size:clamp(30px,7vw,48px);font-weight:800;color:#fff}
+.hero p.lead{font-size:17px;max-width:640px;margin:0 0 18px;opacity:.95}
+.meta{display:flex;flex-wrap:wrap;gap:8px;font-size:13px}
+.meta span{background:rgba(255,255,255,.14);padding:5px 10px;border-radius:8px}
+nav.tabs{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+nav.tabs .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 16px;scrollbar-width:none}
+nav.tabs a{flex:none;text-decoration:none;color:var(--ink);background:var(--soft);padding:7px 12px;border-radius:999px;font-size:14px;font-weight:600}
+section{padding:34px 0 8px;scroll-margin-top:56px}
+section h2{font-size:clamp(24px,5vw,32px)}
+.kicker{color:var(--brand);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.grid{display:grid;gap:12px}
+@media(min-width:640px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}}
+.notice{background:var(--warn-bg);color:var(--ink);border-left:5px solid var(--warn);border-radius:12px;padding:14px 16px;margin:18px 0 0;font-size:15px}
+.big{font-family:Fraunces,serif;font-size:30px;font-weight:800;color:var(--brand);line-height:1}
+.small{font-size:13px;color:var(--muted)}
+/* Timeline */
+.tl{list-style:none;margin:0;padding:0;position:relative}
+.tl li{position:relative;padding:0 0 18px 34px}
+.tl li::before{content:"";position:absolute;left:10px;top:22px;bottom:-2px;width:2px;background:var(--line)}
+.tl li:last-child::before{display:none}
+.tl .pt{position:absolute;left:0;top:2px;width:22px;height:22px;border-radius:50%;border:2px solid var(--line);background:var(--card);display:grid;place-items:center;font-size:12px;font-weight:800}
+.tl li.done .pt{background:var(--green);border-color:var(--green);color:#fff}
+.tl li.now .pt{background:var(--brand-2);border-color:var(--brand-2);color:#fff;box-shadow:0 0 0 5px rgba(224,138,44,.25)}
+.tl b{display:block}
+.tl .when{font-size:13px;color:var(--muted)}
+/* Points */
+.pt-card{display:flex;gap:12px;align-items:flex-start}
+.ico{flex:none;width:40px;height:40px;border-radius:12px;background:var(--soft);display:grid;place-items:center;font-size:20px}
+.pt-card h3{font-size:17px;margin:0 0 3px;font-family:Inter,sans-serif;font-weight:700}
+.pt-card p{margin:0;font-size:15px;color:var(--muted)}
+/* Articles */
+details.art{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+details.art summary{cursor:pointer;list-style:none;padding:14px 16px;display:flex;gap:12px;align-items:center;font-weight:600}
+details.art summary::-webkit-details-marker{display:none}
+details.art summary .n{flex:none;min-width:42px;height:28px;border-radius:8px;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:13px;font-weight:800}
+details.art summary .chev{margin-left:auto;transition:transform .2s;color:var(--muted)}
+details.art[open] summary .chev{transform:rotate(90deg)}
+details.art .body{padding:0 16px 16px 70px;font-size:15px}
+details.art .body ul{padding-left:18px;margin:.4em 0}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;background:var(--soft);color:var(--brand);margin-right:4px}
+@media(max-width:520px){details.art .body{padding-left:16px}}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.filters button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;font:600 13px Inter,sans-serif;cursor:pointer}
+.filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* Calculator */
+label{display:block;font-weight:600;font-size:14px;margin:0 0 6px}
+input[type=text],input[type=number]{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font:600 18px Inter,sans-serif;background:var(--bg);color:var(--ink)}
+.checks label{display:flex;gap:10px;align-items:flex-start;font-weight:500;font-size:15px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;cursor:pointer;background:var(--bg)}
+.checks input{width:20px;height:20px;accent-color:var(--green);flex:none;margin-top:2px}
+.result{border-radius:16px;padding:18px;margin-top:14px;background:var(--soft)}
+.result.ok{background:color-mix(in srgb,var(--green) 14%,var(--card))}
+.result .row{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.result .row:last-of-type{border:0}
+.result .row b{font-variant-numeric:tabular-nums}
+.verdict{font-weight:700;margin:0 0 8px;font-size:16px}
+/* Stats */
+.stat .big{font-size:34px}
+.stat p{margin:6px 0 0;font-size:14px;color:var(--muted)}
+/* Checklist */
+.progress{height:10px;background:var(--soft);border-radius:999px;overflow:hidden;margin:6px 0 14px}
+.progress i{display:block;height:100%;width:0;background:var(--green);transition:width .3s}
+/* Debate */
+.side h3{font-size:18px}
+.side ul{margin:0;padding-left:18px;font-size:15px}
+.side li{margin-bottom:6px}
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:12px;padding:12px 16px;font:700 15px Inter,sans-serif;cursor:pointer;text-decoration:none}
+.btn.wa{background:#1fa855;color:#fff}
+.btn.alt{background:var(--soft);color:var(--ink)}
+.sources li{margin-bottom:6px;font-size:14px;word-break:break-word}
+footer{margin-top:40px;padding:28px 0 40px;background:var(--ink);color:var(--bg)}
+footer a{color:var(--brand-2)}
+.install{display:none}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brandline">⚡ Vibras Positivas HM · App ciudadana</div>
+    <div class="badge"><span class="dot"></span> Proyecto de ley · AÚN NO ES LEY</div>
+    <h1>Ley Gastronómica</h1>
+    <p class="lead">Lo que propone el Congreso para restaurantes, cafeterías, bares, cocinas tradicionales y emprendimientos de comida en Colombia. Explicado en palabras sencillas, artículo por artículo.</p>
+    <div class="meta">
+      <span>📄 PL 044 de 2026 Cámara</span>
+      <span>📅 Radicado el 22 jul 2026</span>
+      <span id="dias">⏱️ — días en trámite</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Secciones">
+  <div class="wrap">
+    <a href="#como-va">¿Cómo va?</a>
+    <a href="#resumen">En 1 minuto</a>
+    <a href="#calculadora">Calculadora</a>
+    <a href="#articulos">Artículos</a>
+    <a href="#cifras">Cifras</a>
+    <a href="#checklist">Mi checklist</a>
+    <a href="#debate">El debate</a>
+    <a href="#fuentes">Fuentes</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<div class="notice">
+  <b>Importante:</b> esto es un <b>proyecto</b>. Nada de lo que aparece aquí es obligatorio ni se puede reclamar todavía. Para volverse ley tiene que aprobarse en 4 debates en el Congreso y la sanción del presidente, y en el camino el texto puede cambiar.
+</div>
+
+<!-- CÓMO VA -->
+<section id="como-va">
+  <div class="kicker">Ruta en el Congreso</div>
+  <h2>¿Cómo va el proyecto?</h2>
+  <div class="card">
+    <ol class="tl">
+      <li class="done"><span class="pt">✓</span><b>Radicado en la Cámara de Representantes</b><span class="when">22 de julio de 2026 · Autores: senadora Norma Hurtado Sánchez y representante Camilo Esteban Ávila Morales, con otros congresistas</span></li>
+      <li class="done"><span class="pt">✓</span><b>Publicado en la Gaceta del Congreso n.º 920</b><span class="when">4 de agosto de 2026 · Recibe el número 044 de 2026 Cámara</span></li>
+      <li class="now"><span class="pt">●</span><b>Primer debate: comisión de la Cámara</b><span class="when">Pendiente · Se espera que le asignen ponentes y presenten la ponencia</span></li>
+      <li><span class="pt">2</span><b>Segundo debate: plenaria de la Cámara</b><span class="when">Pendiente</span></li>
+      <li><span class="pt">3</span><b>Tercer debate: comisión del Senado</b><span class="when">Pendiente</span></li>
+      <li><span class="pt">4</span><b>Cuarto debate: plenaria del Senado</b><span class="when">Pendiente</span></li>
+      <li><span class="pt">✍</span><b>Conciliación y sanción presidencial</b><span class="when">Solo después de esto se convierte en ley</span></li>
+    </ol>
+    <p class="small" style="margin:6px 0 12px">Estado verificado el <b>22 de octubre de 2026, 4:35 p. m. (hora de Colombia)</b>. No se encontró registro de que ya haya tenido primer debate.</p>
+    <a class="btn alt" href="https://congresovisible.uniandes.edu.co/" target="_blank" rel="noopener">🔎 Seguirlo en Congreso Visible</a>
+  </div>
+</section>
+
+<!-- RESUMEN -->
+<section id="resumen">
+  <div class="kicker">En 1 minuto</div>
+  <h2>Lo que propone, en 8 puntos</h2>
+  <div class="grid g2">
+    <div class="card pt-card"><div class="ico">⭐</div><div><h3>Sector estratégico</h3><p>Declara la gastronomía de interés nacional: económico, cultural y turístico, con énfasis en economía popular y cocinas tradicionales.</p></div></div>
+    <div class="card pt-card"><div class="ico">💰</div><div><h3>Una bolsa propia en FONTUR</h3><p>Crea la Subcuenta de Fomento Gastronómico para crédito, capacitación, formalización y cocinas tradicionales.</p></div></div>
+    <div class="card pt-card"><div class="ico">🖥️</div><div><h3>Todos los trámites en un solo sitio</h3><p>Cámara de Comercio, RUT, sanidad, uso de suelo, bomberos, Sayco y permisos, todo en la Ventanilla Única Empresarial (VUE).</p></div></div>
+    <div class="card pt-card"><div class="ico">🧾</div><div><h3>Impuesto al consumo del 8 % al 4 %</h3><p>Por 5 años, para quien se formalice, aumente su nómina formal un 20 % y facture todo electrónicamente.</p></div></div>
+    <div class="card pt-card"><div class="ico">🏛️</div><div><h3>Descuentos locales</h3><p>Los concejos podrán rebajar hasta el 50 % de tasas municipales el primer año a quien se formalice.</p></div></div>
+    <div class="card pt-card"><div class="ico">🎓</div><div><h3>Primero enseñar, luego sancionar</h3><p>Durante los primeros 12 meses en la VUE, las autoridades priorizan la asesoría antes que las multas.</p></div></div>
+    <div class="card pt-card"><div class="ico">🔊</div><div><h3>Ruido con medición, no por queja</h3><p>No se podría sancionar por ruido solo por percepción o quejas: haría falta medición técnica.</p></div></div>
+    <div class="card pt-card"><div class="ico">⏰</div><div><h3>Contratación por turnos</h3><p>Microempresas podrían pagar seguridad social a tiempo parcial, proporcional a las horas trabajadas.</p></div></div>
+  </div>
+</section>
+
+<!-- CALCULADORA -->
+<section id="calculadora">
+  <div class="kicker">Artículo 10</div>
+  <h2>¿Cuánto le ahorraría a mi negocio?</h2>
+  <p>Calcule el cambio en el Impuesto Nacional al Consumo (INC) si el proyecto se aprobara tal como fue radicado.</p>
+  <div class="card">
+    <div class="grid g2">
+      <div>
+        <label for="ventas">Ventas mensuales de comida y bebida (antes del impuesto)</label>
+        <input id="ventas" type="text" inputmode="numeric" placeholder="$ 15.000.000" autocomplete="off">
+      </div>
+      <div>
+        <label for="precio">Precio de su plato o servicio más caro</label>
+        <input id="precio" type="text" inputmode="numeric" placeholder="$ 25.000" autocomplete="off">
+        <p class="small" style="margin:6px 0 0">Tope del beneficio: 3 UVT = <b id="tope">$157.122</b> (UVT 2026: $52.374).</p>
+      </div>
+    </div>
+    <p style="font-weight:700;margin:16px 0 8px">¿Cumpliría estas condiciones?</p>
+    <div class="checks">
+      <label><input type="checkbox" class="cond"> Estoy inscrito en la Ventanilla Única Empresarial (VUE)</label>
+      <label><input type="checkbox" class="cond"> Mi nómina formal creció al menos 20 % el año anterior</label>
+      <label><input type="checkbox" class="cond"> Facturo electrónicamente el 100 % de mis ventas</label>
+    </div>
+    <div id="res" class="result"><p class="verdict">Escriba sus ventas para ver el cálculo.</p></div>
+    <p class="small" style="margin-top:10px">Cálculo aproximado e informativo, no es asesoría tributaria. Hoy el INC para restaurantes es del 8 %. El artículo 11 del mismo proyecto también propone un IVA del 10 % para la actividad gastronómica desde 2027; cómo encajarían los dos artículos es algo que se definirá en los debates.</p>
+  </div>
+</section>
+
+<!-- ARTÍCULOS -->
+<section id="articulos">
+  <div class="kicker">El texto, en sencillo</div>
+  <h2>Artículo por artículo</h2>
+  <div class="filters" id="filtros">
+    <button class="on" data-f="todos">Todos</button>
+    <button data-f="plata">💰 Plata e impuestos</button>
+    <button data-f="tramites">🖥️ Trámites</button>
+    <button data-f="trabajo">👩‍🍳 Trabajo</button>
+    <button data-f="convivencia">🔊 Convivencia</button>
+  </div>
+  <div id="arts"></div>
+  <p class="small">El texto radicado pasa del artículo 5 al 7: no tiene artículo 6. Lo más probable es que la numeración se corrija en los debates.</p>
+</section>
+
+<!-- CIFRAS -->
+<section id="cifras">
+  <div class="kicker">Por qué se propone</div>
+  <h2>El sector en cifras</h2>
+  <p class="small">Datos citados en la exposición de motivos del proyecto (DANE, EMICRON, Banco de Bogotá, ANIF).</p>
+  <div class="grid g3">
+    <div class="card stat"><div class="big">75 %</div><p>de informalidad laboral en servicios de comida (el promedio nacional es 55,4 %).</p></div>
+    <div class="card stat"><div class="big">1,83 M</div><p>personas trabajan en alojamiento y servicios de comida.</p></div>
+    <div class="card stat"><div class="big">68,5 %</div><p>de esa fuerza laboral son mujeres: 1.153.000.</p></div>
+    <div class="card stat"><div class="big">483 mil</div><p>jóvenes de 15 a 28 años trabajan en el sector.</p></div>
+    <div class="card stat"><div class="big">94 %</div><p>de los dueños de micronegocios de comida no aportan a salud ni pensión.</p></div>
+    <div class="card stat"><div class="big">7,7 %</div><p>accede a crédito formal. El 67,1 % se financia con ahorros, familia o "gota a gota".</p></div>
+    <div class="card stat"><div class="big">37,8 %</div><p>de los micronegocios de comida cierra antes de cumplir un año.</p></div>
+    <div class="card stat"><div class="big">228.775</div><p>unidades de servicios de comida encontró el Censo Económico 2024 (DANE).</p></div>
+    <div class="card stat"><div class="big">$40–57 B</div><p>billones de pesos al año: valor agregado estimado de la gastronomía.</p></div>
+  </div>
+</section>
+
+<!-- CHECKLIST -->
+<section id="checklist">
+  <div class="kicker">Para prepararse</div>
+  <h2>Mi checklist de formalización</h2>
+  <p>Estos son los 7 trámites que el proyecto quiere reunir en la Ventanilla Única (artículo 8). Casi todos <b>ya se exigen hoy</b>, así que avanzar con ellos sirve con o sin ley. Su progreso queda guardado en este celular.</p>
+  <div class="card">
+    <div class="small"><span id="pct">0</span> de 7 listos</div>
+    <div class="progress"><i id="bar"></i></div>
+    <div class="checks" id="lista"></div>
+  </div>
+</section>
+
+<!-- DEBATE -->
+<section id="debate">
+  <div class="kicker">Para opinar con criterio</div>
+  <h2>Lo que se va a discutir</h2>
+  <div class="grid g2">
+    <div class="card side">
+      <h3>✅ Lo que dicen sus defensores</h3>
+      <ul>
+        <li>Formalizarse hoy cuesta tanto que empuja a la informalidad; con incentivos, más negocios entrarían al sistema.</li>
+        <li>El INC del 8 % no se descuenta contra el IVA de los insumos, y eso castiga al que cumple.</li>
+        <li>Cuando el INC bajó al 0 % en 2021, el sector se reactivó.</li>
+        <li>Calculan un costo fiscal neto cercano a $460.000 millones al año, que se compensaría a mediano plazo con más contribuyentes.</li>
+      </ul>
+    </div>
+    <div class="card side">
+      <h3>⚖️ Lo que habrá que vigilar</h3>
+      <ul>
+        <li>El costo fiscal: el propio proyecto reconoce objeciones del Ministerio de Hacienda sobre el recaudo.</li>
+        <li>La cotización por horas: los críticos de esquemas parecidos temen que se use para no contratar de tiempo completo. El texto lo prohíbe, pero queda por ver cómo se vigila.</li>
+        <li>Las condiciones del 4 %: subir la nómina formal un 20 % en un año puede ser difícil para un negocio muy pequeño.</li>
+        <li>La relación entre el INC del 4 % (art. 10) y el IVA del 10 % (art. 11), que debe quedar clara.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARTIR -->
+<section>
+  <div class="card" style="text-align:center">
+    <h2 style="font-size:24px">¿Tiene un amigo con restaurante, cafetería o venta de comida?</h2>
+    <p>Mándele esta app para que se entere a tiempo.</p>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <a class="btn wa" id="share-wa" href="#" target="_blank" rel="noopener">🟢 Compartir por WhatsApp</a>
+      <button class="btn alt" id="share-native">📤 Compartir</button>
+      <button class="btn alt install" id="install">📲 Instalar app</button>
+    </div>
+  </div>
+</section>
+
+<!-- FUENTES -->
+<section id="fuentes">
+  <div class="kicker">Para verificar</div>
+  <h2>Fuentes</h2>
+  <ul class="sources">
+    <li><a href="https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/15458/920/26.pdf" target="_blank" rel="noopener">Gaceta del Congreso 920 de 2026: Proyecto de Ley 044 de 2026 Cámara (Congreso Visible)</a></li>
+    <li><a href="https://www.partidodelau.com/wp-content/uploads/2026/07/1.-Proyecto-de-Ley-sector-gastronomico-vf.pdf" target="_blank" rel="noopener">Texto radicado del proyecto, 22 jul 2026 (Partido de la U)</a></li>
+    <li><a href="https://incp.org.co/agendatributariaincp/noticias/2025/12/dian-fijo-en-52-374-en-valor-de-la-uvt-para-el-ano-gravable-2026/" target="_blank" rel="noopener">UVT 2026: $52.374, Resolución DIAN 000238 de 2025 (INCP)</a></li>
+    <li><a href="https://www.infobae.com/colombia/2026/07/25/sector-de-los-restaurantes-en-colombia-enfrenta-presion-por-inseguridad-y-altos-costos-segun-balance-de-la-asociacion-gastronomica-de-colombia/" target="_blank" rel="noopener">Balance del sector, Asociación Gastronómica de Colombia (Infobae)</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0 0 6px;font-family:Fraunces,serif;font-size:20px">⚡ Vibras Positivas HM</p>
+    <p class="small" style="color:inherit;opacity:.8;margin:0 0 10px">App ciudadana e informativa, sin afiliación con el Congreso ni con ningún partido. Hecha en Caucasia, Antioquia.</p>
+    <p style="margin:0">¿Quiere una app para su negocio? <a href="https://wa.me/573117700431" target="_blank" rel="noopener">WhatsApp 311 770 0431</a></p>
+  </div>
+</footer>
+
+<script>
+// ===== Días en trámite (hora Colombia) =====
+(function(){
+  const hoy = new Date(new Date().toLocaleString('en-US',{timeZone:'America/Bogota'}));
+  hoy.setHours(0,0,0,0);
+  const rad = new Date(2026,6,22);
+  const d = Math.round((hoy - rad)/86400000);
+  document.getElementById('dias').textContent = '⏱️ ' + d + ' días en trámite';
+})();
+
+// ===== Artículos =====
+const ARTS = [
+ {n:'1',t:'Objeto de la ley',c:['plata','tramites'],b:`<p>Crea un marco para <b>fomentar, formalizar y fortalecer</b> el sector gastronómico. Lo hace con tres herramientas: incentivos tributarios, trámites más simples y una bolsa de recursos propia dentro de FONTUR.</p>`},
+ {n:'2',t:'¿A quién aplica?',c:['tramites'],b:`<p>A toda persona o empresa que <b>prepare y venda comida o bebida</b> para consumir en el sitio, para llevar o a domicilio, sin importar su tamaño. Incluye restaurantes, cafeterías, bares, cocinas tradicionales y emprendimientos de comida.</p><p><span class="tag">No aplica</span> a fábricas de alimentos procesados, enlatados o congelados, ni a tiendas que venden comida sin prepararla.</p>`},
+ {n:'3',t:'Sector estratégico de interés nacional',c:[],b:`<p>Reconoce la gastronomía como actividad <b>económica, cultural y turística estratégica</b>. El Gobierno tendría que priorizar programas para el sector, sobre todo para la economía popular y las cocinas tradicionales.</p>`},
+ {n:'4',t:'Subcuenta de Fomento Gastronómico (FONTUR)',c:['plata'],b:`<p>Crea dentro de FONTUR una bolsa de plata solo para el sector. Se alimentaría de:</p><ul><li>La contribución parafiscal de turismo que ya pagan restaurantes y bares.</li><li>Recursos del Presupuesto Nacional, hasta llegar poco a poco a un monto igual al 1 % de la inversión de MinAgricultura en fomento agrícola.</li><li>Aportes voluntarios de alcaldías y gobernaciones, cooperación internacional y privados.</li><li>Los rendimientos financieros de la propia bolsa.</li></ul><p>La manejaría MinComercio con FONTUR y Procolombia.</p>`},
+ {n:'5',t:'¿En qué se gastaría esa plata?',c:['plata'],b:`<ul><li>Programas de formalización empresarial y laboral.</li><li>Crédito y microcrédito con tasas preferenciales.</li><li>Capacitación y certificación de trabajadores.</li><li>Digitalización, eficiencia energética y sostenibilidad.</li><li>Protección de cocinas tradicionales y regionales.</li><li>Compras a productores rurales.</li><li>Garantías a través del Fondo Nacional de Garantías y Bancóldex.</li><li>Apoyo a gremios para presentar proyectos.</li><li>Adecuar locales para cumplir normas sanitarias, de seguridad y de energía.</li></ul><p><span class="tag">Límite</span> MinComercio no podría usar más del 20 % de la bolsa en sus propios programas.</p>`},
+ {n:'7',t:'Ventanilla Única Empresarial (VUE)',c:['tramites'],b:`<p>Todos los trámites, nacionales y municipales, para abrir y operar un negocio de comida quedarían en <b>una sola plataforma digital</b>. Las alcaldías tendrían que conectar sus sistemas a ella.</p><p>MinTIC apoyaría a los municipios pequeños (categorías 4, 5 y 6) para lograrlo.</p>`},
+ {n:'8',t:'Los 7 trámites en la VUE',c:['tramites'],b:`<ul><li>Matrícula mercantil (Cámara de Comercio).</li><li>RUT y obligaciones tributarias municipales.</li><li>Registro y concepto sanitario.</li><li>Concepto de uso del suelo.</li><li>Certificado de bomberos y seguridad humana.</li><li>Pago de derechos de autor (música).</li><li>Demás licencias y permisos municipales.</li></ul><p>Los municipios tendrían <b>12 meses</b> para conectarse.</p>`},
+ {n:'9',t:'Descuentos municipales por formalizarse',c:['plata','tramites'],b:`<p>Los concejos <b>podrían</b> (no estarían obligados) dar hasta por 3 años a quien se formalice por la VUE:</p><ul><li>Hasta <b>50 % de descuento</b> en tasas y derechos municipales el primer año.</li><li>Descuento o exención en la inscripción inicial.</li><li>Prioridad en programas de acompañamiento técnico, legal y empresarial.</li><li>Deducir en renta el <b>120 %</b> de los gastos de formalización.</li></ul><p>Durante los 2 primeros años, el micronegocio pagaría solo el costo variable de las visitas de inspección. Quien incumpla pierde el beneficio. También tendría cupos reservados en convocatorias de iNNpulsa y FONTUR.</p>`},
+ {n:'10',t:'Impuesto al consumo del 8 % al 4 %',c:['plata'],b:`<p>El INC bajaría al <b>4 %</b> durante <b>5 años</b> para quien cumpla <b>las tres</b> condiciones:</p><ul><li>Estar inscrito en la VUE.</li><li>Haber aumentado su nómina formal un 20 % el año anterior.</li><li>Facturar electrónicamente el 100 %.</li></ul><p><span class="tag">Tope</span> Solo aplicaría a platos o servicios que no superen 3 UVT ($157.122 en 2026).</p><p>El Gobierno tendría que presentarle cada año al Congreso un informe sobre los efectos de la medida. <a href="#calculadora">Use la calculadora →</a></p>`},
+ {n:'11',t:'IVA del 10 % para la gastronomía',c:['plata'],b:`<p>Desde el <b>1 de enero de 2027</b>, la preparación y venta de comida y bebida quedaría gravada con un <b>IVA del 10 %</b>.</p><p>La exposición de motivos defiende pasar a un esquema de IVA porque, a diferencia del INC, permite descontar el IVA pagado en insumos. Cómo convivirían este artículo y el anterior se tendrá que aclarar en los debates.</p>`},
+ {n:'12',t:'Primero pedagogía, luego sanción',c:['tramites'],b:`<p>Los micronegocios que se inscriban en la VUE tendrían un <b>Plan de Cumplimiento Progresivo</b>. Durante los primeros <b>12 meses</b>, las autoridades priorizarían la asesoría y la corrección antes que las multas.</p><p>Si el negocio incumple el plan sin justificación, se aplicarían las sanciones del Código de Policía (Ley 1801 de 2016).</p>`},
+ {n:'13',t:'Certificación Estrella Gastronómica',c:[],b:`<p>Sería un sello de calidad otorgado por FONTUR, MinComercio y MinSalud. Evaluaría:</p><ul><li>Sanidad e inocuidad.</li><li>Formalización empresarial y laboral.</li><li>Calidad del servicio.</li><li>Uso de productos locales.</li><li>Sostenibilidad ambiental.</li><li>Identidad gastronómica regional.</li></ul><p>Se otorgaría por niveles. Quien la tenga ganaría <b>puntos extra o desempate en contratos públicos</b> de alimentación, catering y el <b>PAE</b> (alimentación escolar).</p>`},
+ {n:'14',t:'Ruido: medición técnica obligatoria',c:['convivencia'],b:`<p>A restaurantes y negocios de comida que funcionen con el uso del suelo permitido no se les podría sancionar por ruido <b>solo</b> por percepción del policía o por quejas de vecinos. Haría falta:</p><ul><li>Medición con equipos calibrados.</li><li>Coordinación con autoridades ambientales y de salud (Ley 2450 de 2025).</li></ul><p>La excepción sería una perturbación grave y evidente, probada con algo más que "se oye duro". El Gobierno tendría 12 meses para reglamentar los protocolos.</p>`},
+ {n:'15',t:'Contratación por turnos',c:['trabajo'],b:`<p>Las <b>microempresas</b> del sector podrían pagar seguridad social a tiempo parcial (con base en el art. 34 de la Ley 2466 de 2025), respetando:</p><ul><li>Salario mínimo proporcional a las horas trabajadas.</li><li>Prestaciones y vacaciones proporcionales.</li><li>Cotización según el ingreso y el tiempo reales.</li><li>Riesgos laborales (ARL) desde el primer día.</li></ul><p><span class="tag">Prohibido</span> usarlo para disfrazar trabajos de tiempo completo. Los inscritos en la VUE accederían a los incentivos del Programa de Empleo Nocturno.</p>`},
+ {n:'16',t:'Reglamentación',c:[],b:`<p>El Gobierno tendría <b>6 meses</b> después de la promulgación para reglamentar lo que la ley no dejó resuelto.</p>`},
+ {n:'17',t:'Vigencia',c:[],b:`<p>Regiría desde su promulgación, es decir, solo después de aprobarse y firmarse. Hoy <b>no rige</b>.</p>`}
+];
+const cont = document.getElementById('arts');
+cont.innerHTML = ARTS.map(a=>`<details class="art" data-c="${a.c.join(' ')}"><summary><span class="n">Art. ${a.n}</span>${a.t}<span class="chev">›</span></summary><div class="body">${a.b}</div></details>`).join('');
+document.getElementById('filtros').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  document.querySelectorAll('#filtros button').forEach(x=>x.classList.toggle('on',x===b));
+  const f=b.dataset.f;
+  document.querySelectorAll('details.art').forEach(d=>{
+    d.style.display = (f==='todos' || d.dataset.c.split(' ').includes(f)) ? '' : 'none';
+  });
+});
+
+// ===== Calculadora =====
+const UVT = 52374, TOPE = UVT*3;
+const fmt = n => '$' + Math.round(n).toLocaleString('es-CO');
+const num = el => Number((el.value||'').replace(/\D/g,''));
+document.getElementById('tope').textContent = fmt(TOPE);
+function money(el){ el.addEventListener('input',()=>{ const v=num(el); el.value = v ? fmt(v) : ''; calc(); }); }
+const ventas=document.getElementById('ventas'), precio=document.getElementById('precio');
+money(ventas); money(precio);
+document.querySelectorAll('.cond').forEach(c=>c.addEventListener('change',calc));
+function calc(){
+  const v=num(ventas), p=num(precio), res=document.getElementById('res');
+  const cumple=[...document.querySelectorAll('.cond')].every(c=>c.checked);
+  const nCumple=[...document.querySelectorAll('.cond')].filter(c=>c.checked).length;
+  if(!v){res.className='result';res.innerHTML='<p class="verdict">Escriba sus ventas para ver el cálculo.</p>';return;}
+  const hoy=v*0.08;
+  const dentroTope = !p || p<=TOPE;
+  let verdict, prop;
+  if(!dentroTope){ prop=hoy; verdict='❌ Su plato más caro supera el tope de 3 UVT: el beneficio no aplicaría a esas ventas.'; }
+  else if(cumple){ prop=v*0.04; verdict='✅ Con el proyecto aprobado así, pagaría la mitad de INC.'; }
+  else { prop=hoy; verdict=`⚠️ Cumple ${nCumple} de 3 condiciones. Seguiría pagando el 8 % hasta cumplirlas todas.`; }
+  const ah=hoy-prop;
+  res.className='result'+(ah>0?' ok':'');
+  res.innerHTML=`<p class="verdict">${verdict}</p>
+   <div class="row"><span>INC hoy (8 %) al mes</span><b>${fmt(hoy)}</b></div>
+   <div class="row"><span>INC con el proyecto al mes</span><b>${fmt(prop)}</b></div>
+   <div class="row"><span>Ahorro al mes</span><b>${fmt(ah)}</b></div>
+   <div class="row"><span>Ahorro al año</span><b>${fmt(ah*12)}</b></div>
+   <div class="row"><span>Ahorro en los 5 años del beneficio</span><b>${fmt(ah*60)}</b></div>
+   ${p ? '' : '<p class="small" style="margin:8px 0 0">Escriba también el precio de su plato más caro para revisar el tope.</p>'}`;
+}
+
+// ===== Checklist (guardado local) =====
+const TRAM=['Matrícula mercantil en la Cámara de Comercio','RUT actualizado','Concepto sanitario (Secretaría de Salud)','Concepto de uso del suelo (Planeación)','Certificado de bomberos','Pago de derechos de autor por la música','Demás permisos municipales al día'];
+const KEY='ley-gastro-check';
+let st=[]; try{ st=JSON.parse(localStorage.getItem(KEY))||[]; }catch(e){ st=[]; }
+const lista=document.getElementById('lista');
+lista.innerHTML=TRAM.map((t,i)=>`<label><input type="checkbox" data-i="${i}" ${st[i]?'checked':''}> ${t}</label>`).join('');
+function prog(){ const n=st.filter(Boolean).length; document.getElementById('pct').textContent=n; document.getElementById('bar').style.width=(n/TRAM.length*100)+'%'; }
+lista.addEventListener('change',e=>{ st[e.target.dataset.i]=e.target.checked; try{localStorage.setItem(KEY,JSON.stringify(st));}catch(_){} prog(); });
+prog();
+
+// ===== Compartir =====
+const URL_APP='https://haroldco45.github.io/ley-gastronomica/';
+const TXT='🍽️ ¿Tiene restaurante, cafetería o venta de comida? Mire lo que propone el proyecto de Ley Gastronómica (aún no es ley), explicado fácil y con calculadora: ';
+document.getElementById('share-wa').href='https://wa.me/?text='+encodeURIComponent(TXT+URL_APP);
+document.getElementById('share-native').addEventListener('click',async()=>{
+  if(navigator.share){ try{ await navigator.share({title:'Ley Gastronómica',text:TXT,url:URL_APP}); }catch(_){} }
+  else { try{ await navigator.clipboard.writeText(TXT+URL_APP); alert('Enlace copiado'); }catch(_){} }
+});
+let deferred; const ib=document.getElementById('install');
+window.addEventListener('beforeinstallprompt',e=>{ e.preventDefault(); deferred=e; ib.style.display='inline-flex'; });
+ib.addEventListener('click',async()=>{ if(!deferred) return; deferred.prompt(); deferred=null; ib.style.display='none'; });
+
+// ===== PWA =====
+if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
